@@ -16,7 +16,7 @@ class CityBuddyApp extends StatelessWidget {
       title: 'CityBuddy',
       theme: AppTheme.light,
       debugShowCheckedModeBanner: false,
-      home: const LoginScreen(),
+      home: const LoginPage(),
     );
   }
 }

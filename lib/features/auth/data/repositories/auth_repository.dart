@@ -1,4 +1,3 @@
-import 'package:dio/dio.dart';
 import 'package:citybuddy/data/models/user_model.dart';
 import 'package:citybuddy/data/network/api_service.dart';
 
