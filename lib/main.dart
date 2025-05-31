@@ -1,3 +1,4 @@
+import 'package:citybuddy/features/auth/presentation/screens/signup_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'theme/app_theme.dart';
@@ -16,7 +17,7 @@ class CityBuddyApp extends StatelessWidget {
       title: 'CityBuddy',
       theme: AppTheme.light,
       debugShowCheckedModeBanner: false,
-      home: const LoginPage(),
+      home: const SignUpScreen(),
     );
   }
 }
