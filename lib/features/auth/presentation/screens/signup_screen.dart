@@ -60,7 +60,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                   Center(
                     child: Column(
                       children: [
-                        Image.asset('assets/logo.png', height: 80),
+                        // Image.asset('assets/logo.png', height: 80),
                         const SizedBox(height: 8),
                         const Text(
                           "Let’s get you connected in your city",

@@ -141,23 +141,23 @@ class LoginPage extends StatelessWidget {
                 const SizedBox(height: 12),
 
                 // Social Buttons
-                ElevatedButton.icon(
-                    onPressed: () {},
-                    style: ElevatedButton.styleFrom(
-                      backgroundColor: Colors.white,
-                      foregroundColor: Colors.black87,
-                      side: const BorderSide(color: Colors.black12),
-                      shape: RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(30),
-                      ),
-                      minimumSize: const Size(double.infinity, 48),
-                    ),
-                   icon: Image.network(
-                      'https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg',
-                      height: 20,
-                    ),
-                    label: const Text("Sign in with Google"),
-                  ),
+                // ElevatedButton.icon(
+                //     onPressed: () {},
+                //     style: ElevatedButton.styleFrom(
+                //       backgroundColor: Colors.white,
+                //       foregroundColor: Colors.black87,
+                //       side: const BorderSide(color: Colors.black12),
+                //       shape: RoundedRectangleBorder(
+                //         borderRadius: BorderRadius.circular(30),
+                //       ),
+                //       minimumSize: const Size(double.infinity, 48),
+                //     ),
+                //    icon: Image.network(
+                //       'https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg',
+                //       height: 20,
+                //     ),
+                //     label: const Text("Sign in with Google"),
+                //   ),
 
                 const SizedBox(height: 12),
 
